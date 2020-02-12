@@ -29,6 +29,9 @@
          * with halfway index, we can compare the substring "fool" and "roof"
          * and look for similarites
          * 
+         * strcmp() returns a 0 if the $substr and $rev_substr is equal
+         * we used an === 0 to ensure that the int 0 is what strcmp
+         * 
          * Once similarities is found, ["foo" and "oof" (when reverse, "oof" becomes "foo")]
          * we will save the string inbetween the "foo" and "oof"
          * the sandwich substring will start from index $i, 
