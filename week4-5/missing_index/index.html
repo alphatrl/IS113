@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      table, tr, th, td {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form action="./receive.php" method="GET" >
+      <table>
+        
+        <tr>
+          <th>Title /Name</th>   
+          <td colspan="3">
+            <input type="text" name="id">
+          </td>
+        </tr>
+
+        <tr>
+          <th>Language</th>
+          <td>
+            <input type="radio" name="lang" value="EN"> English
+            <input type="radio" name="lang" value="CH"> Chinese
+            <input type="radio" name="lang" value="OTH"> Others
+          </td>
+          <th rowspan="2">Media Format</th>
+          <td rowspan="2">
+            <input type="checkbox" name="medium[]" value="hardcopies">Hardcopies (e.g. Book) <br>
+            <input type="checkbox" name="medium[]" value="dvd">DVD <br>
+            <input type="checkbox" name="medium[]" value="stream">Streaming (e.g. Spotify, Youtube) <br>
+            </select>
+          </td>
+        </tr>
+
+        <tr>
+          <th>Suitable for</th>
+          <td>
+            <select name="rating">
+              <option value="g">All ages</option>
+              <option value="pg">Abover 12 year old</option>
+              <option value="r">18 years old and above</option>
+            </select>
+          </td>
+        </tr>
+
+        <tr align="right">
+          <td colspan="4">
+            <input styles="align:right" type="submit" name="btnSend" value="Send the form!">
+          </td>
+        </tr>
+      </form>
+
+    </table>
+  </body>
+</html>
