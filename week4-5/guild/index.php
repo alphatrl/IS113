@@ -169,9 +169,9 @@ $heroes = [
 
                 // Display Guild Attributes
                 echo("<tr>
-                    <td><b>Total</b></td>
-                    <td align='center'><b>$guild_strength</b></td>
-                    <td align='center'><b>$guild_magic</b></td>
+                    <th>Total</th>
+                    <th>$guild_strength</th>
+                    <th>$guild_magic</th>
                 </tr>");
             }
 
