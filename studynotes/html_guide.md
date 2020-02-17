@@ -124,6 +124,23 @@ NOTE:
 
 > `<p>` represents a paragraph
 
+### `<font> ... </font>`
+
+> NOT SUPPORTED IN HTML5!
+
+> `<font>` tag specifies font face, font size and color of text.
+
+|Attribute |Value      |Description            |
+|----------|-----------|-----------------------|
+|color     |rgb(x,x,x) <br> #xxxxxx <br> _colorname_| Not supported in HTML5 <br> Specifies the color of text|
+|face      |_font_family_| Not supported in HTML5 <br> Specfies the font of text|
+|size      | _number_  | Not supported in HTML5 <br> Specifies the size of text |
+
+```html
+<font size="3" color="red">Hello There!</font>
+<font face="verdana" color="blue">General Kenobi</font>
+```
+
 ### `<a> ... </a>`
 
 > `<a>` element or anchor element, with its href attribute, creates a hyperlink to web pages, files, email address, locations in the same page, or anything a URL can address
