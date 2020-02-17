@@ -1,5 +1,16 @@
 # HTML
 
+## Versions
+
+v1.0.2 - Add versioning
+
+v1.0.1 - Add font tag section
+
+v1.0.0 - First Release
+
+[Source](https://github.com/alphatrl/IS113/blob/master/studynotes/html_guide.md)
+
+
 ## Main Root
 
 ### `<html> ... </html>`
