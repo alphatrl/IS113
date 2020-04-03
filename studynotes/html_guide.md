@@ -1,15 +1,6 @@
 # HTML
 
-## Versions
-
-v1.0.2 - Add versioning
-
-v1.0.1 - Add font tag section
-
-v1.0.0 - First Release
-
 [Source](https://github.com/alphatrl/IS113/blob/master/studynotes/html_guide.md)
-
 
 ## Main Root
 
@@ -271,12 +262,24 @@ The `src` attribute specifies the URL (web address) of the image
 |cols      |_number_    |Specifies the visible width of a text area|
 |rows      |_numeber_   |Specifies the visible number of lines in a text area|
 
+#### `<label> ... </label>`
+
+> `<label>` tag is used to increase hit area of a small input. (When the user clicks the text within the `<label>`, it will connect the input)
+
+> `for` attribute of the `<label>` tag should be equal to the `id` attribute of the related element to bind them together
+
 ### `<form>` Examples
 
 ```html
 <form action="action.php" method="POST">
+  Input
   <input type="text" name="text1" placeholder="Input text"> <br>
+  
+  Input
   <input type="text" name="text2" value="Input text"> <br>
+
+  <label for="text3">Input</label>
+  <input type="text" name="text3" id="text3" value="Input Text"><br>
 
   <hr>
 
@@ -305,4 +308,4 @@ The `src` attribute specifies the URL (web address) of the image
 </form>
 ```
 
-![Forms Example HTML](https://i.imgur.com/egfxkg6.png)
+![Forms Example HTML](https://i.imgur.com/9y4TtEe.png)
