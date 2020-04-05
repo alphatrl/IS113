@@ -1,0 +1,53 @@
+<html>
+<head>
+	<title>Search Customers</title>
+</head>
+
+<body>
+
+	<h2>Search Customers</h2>
+
+  <form method='POST' action='process_search.php'>
+
+		<table>
+
+      <tr>
+        <td>Gender</td>
+        <td>
+          <input type='radio' name='gender' value='F' checked>Female
+          <input type='radio' name='gender' value='M'>Male
+        </td>
+      </tr>
+
+      <tr>
+        <td>Age Group</td>
+        <td>
+          <select name='age_range'>
+            <option value='1'>13 - 17</option>
+            <option value='2'>18 - 30</option>
+            <option value='3'>31 - 40</option>
+            <option value='4'>41 - 55</option>
+            <option value='5'>56 - 99</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td>Interests</td>
+        <td>
+          <input type='checkbox' name='interests[]' value='music'>Music<br>
+          <input type='checkbox' name='interests[]' value='fashion'>Fashion<br>
+          <input type='checkbox' name='interests[]' value='sports'>Sports<br>
+          <input type='checkbox' name='interests[]' value='electronics'>Electronics<br>
+        </td>
+      </tr>
+
+      <tr>
+        <td colspan=2><input type='submit'></td>
+      </tr>
+
+		</table>
+
+	</form>
+</body>
+</html>
